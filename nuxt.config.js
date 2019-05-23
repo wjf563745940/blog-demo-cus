@@ -72,6 +72,7 @@ module.exports = {
     }
   },
   router: {
+    base: '/blog-demo-cus/',
     middleware: 'stats',
     extendRoutes(routes, resolve) {
       const indexIndex = routes.findIndex(route => route.name === 'name');
