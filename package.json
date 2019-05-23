@@ -11,7 +11,7 @@
     "generate": "nuxt generate",
     "test": "ava",
     "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
-    "deploy": "push-dir --dir=dist --branch=master "
+    "deploy": "push-dir --dir=src --branch=master "
   },
   "dependencies": {
     "@nuxtjs/auth": "^4.5.3",
