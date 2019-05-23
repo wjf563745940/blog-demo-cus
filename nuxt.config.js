@@ -1,6 +1,6 @@
 const pkg = require('./package')
 
-
+console.log('process.env.DEPLOY_ENV===============',process.env.DEPLOY_ENV)
 module.exports = {
   mode: 'universal',
   axios: {
@@ -72,7 +72,7 @@ module.exports = {
     }
   },
   router: {
-    base: '/blog-demo-cus/',
+    base: process.env.DEPLOY_ENV === 'GH_PAGES'? '/blog-demo-cus/':'/',
     middleware: 'stats',
     extendRoutes(routes, resolve) {
       const indexIndex = routes.findIndex(route => route.name === 'name');
