@@ -17,7 +17,7 @@
     "@nuxtjs/auth": "^4.5.3",
     "@nuxtjs/axios": "^5.4.2",
     "ant-design-vue": "^1.1.10",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cross-env": "^5.2.0",
     "fs-extra": "^8.0.1",
     "koa": "^2.6.2",
